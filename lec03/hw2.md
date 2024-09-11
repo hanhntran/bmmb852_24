@@ -29,7 +29,6 @@ cat  Drosophila_melanogaster.BDGP6.46.112.gff3 | cut -f 3 | grep -w "gene" | wc 
 ```
 
 13986 genes
-
 # 5. What are the top-ten most annotated feature types (column 3) across the genome?
 ```bash cut -f 3 Drosophila_melanogaster.BDGP6.46.112.gff3 | sort | uniq -c | sort -nr | head -10
 ```
