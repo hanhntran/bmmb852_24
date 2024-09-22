@@ -6,7 +6,7 @@ Follow the steps below to run the script:
 
 1. Download the script file `hw4_script.sh` from my repository.
 ```
-wget https://github.com/hanhntran/bmmb852_24/blob/main/hw4/hw4_script.sh
+wget https://github.com/hanhntran/bmmb852_24/blob/main/hw4/scripts/hw4_script.sh
 ```
 
 2. Make the script file executable by running this command:
