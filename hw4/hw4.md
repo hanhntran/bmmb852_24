@@ -5,7 +5,10 @@ This script is used to download annotation files and inspect some features of th
 Follow the steps below to run the script:
 
 1. Download the script file `hw4_script.sh` from my repository.
+   
 ```
+conda activate bioinfo
+
 wget https://github.com/hanhntran/bmmb852_24/blob/main/hw4/scripts/hw4_script.sh
 ```
 
