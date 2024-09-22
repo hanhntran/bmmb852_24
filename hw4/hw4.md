@@ -8,7 +8,7 @@ Follow the steps below to run the script:
 
 > Open hw4_script.sh -> download the script using the download symbol on top right corner as shown in picture below:
 
-![image2](./images/Screenshot_2.png)
+![image2](./images/screenshot2.png)
 
 2. Make the script file executable by running this command:
 ```
