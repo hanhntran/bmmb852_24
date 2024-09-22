@@ -9,11 +9,12 @@ Follow the steps below to run the script:
 ```
 conda activate bioinfo
 
-git clone https://github.com/hanhntran/bmmb852_24/blob/main/hw4/scripts/hw4_script.sh
+git clone https://github.com/hanhntran/bmmb852_24/blob/main/hw4/scripts/
 ```
 
 2. Make the script file executable by running this command:
 ```
+cd ./scripts/
 chmod +x hw4_script.sh
 ```
 
