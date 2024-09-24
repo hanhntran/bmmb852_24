@@ -11,12 +11,6 @@ GENE_FILE="Drosophila_melanogaster.BDGP6.46.112.gene.gff3"
 
 
 # ---------- NOTHING NEEDS TO BE CHANGED BELOW THIS LINE ---------- #
-
-# ensure conda command is available in the shell session
-source $(conda info --base)/etc/profile.d/conda.sh
-# activate conda environment
-conda activate bioinfo
-
 # set directory to be the directory of this script
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
