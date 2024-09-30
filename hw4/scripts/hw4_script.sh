@@ -48,3 +48,17 @@ echo "- What are the top-ten most annotated feature types (column 3) across the 
 cut -f 3 $DIR/data/${GFF3_FILE} | sort | uniq -c | sort -nr | head -10 | \
 echo "Answer: The top-ten most annotated feature types are:
 $(cat -)"
+
+
+
+#### PART 2 : Make use of ontologies ####
+# Use bio to explain a term
+bio explain gene
+
+## A gene is a region of the genome that contains DNA sequence to encode a functional transcript. 
+# The functional transcript then get translated into a protein or non-coding RNA. 
+# The parent terms of gene are biological_region and gene_group.
+# the parent term biological_region indicates that this region has a functional function in the cell.
+# the parent term gene_group indicates that this region is a gene that shares common features with other genes.
+# The children nodes of gene are exon, intron, and transcript, etc. that are sub-components of a gene whether
+# by their location (nuclear, mitochondrial, etc.) or by their function (protein-coding, non-coding, etc.) etc.
