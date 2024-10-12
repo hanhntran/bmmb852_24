@@ -4,4 +4,4 @@ This repository contains all codes and scripts for BMMB852 course - Fall 2024
 - Assignment 3 [hw03](hw3/hw3.md)
 - Assignment 4 [hw04](hw4/hw4.md)
 - Assignment 5 [hw05](hw5/hw5_script.sh)
-
+- Assignment 6 [hw06 script](hw6/hw6_script.sh)  -  [hw06 markdown](hw6/hw6.md) 
