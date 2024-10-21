@@ -72,6 +72,11 @@ align: index
 	samtools sort -o sim_aligned.sorted.bam sim_aligned.bam
 	samtools index sim_aligned.sorted.bam
 
+# generate alignment summary
+summary:
+	samtools flagstat trim_aligned.sorted.bam > trim_aligned.flagstat
+	samtools flagstat sim_aligned.sorted.bam > sim_aligned.flagstat
+
 # clean up the aligned files
 clean_align:
 	rm trim_aligned.sam sim_aligned.sam trim_aligned.bam sim_aligned.bam
