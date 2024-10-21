@@ -69,8 +69,52 @@ make index
 ```
 make align
 ``` 
+#### 10. Generate alignment summary
+```
+make summary
+```
+Output files:
+- `trim_aligned.flagstat`: Summary of the trimmed reads alignment.
+```
+17794 + 0 in total (QC-passed reads + QC-failed reads)
+17786 + 0 primary
+0 + 0 secondary
+8 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+17207 + 0 mapped (96.70% : N/A)
+17199 + 0 primary mapped (96.70% : N/A)
+17786 + 0 paired in sequencing
+8893 + 0 read1
+8893 + 0 read2
+16914 + 0 properly paired (95.10% : N/A)
+16974 + 0 with itself and mate mapped
+225 + 0 singletons (1.27% : N/A)
+34 + 0 with mate mapped to a different chr
+23 + 0 with mate mapped to a different chr (mapQ>=5)
 
-#### 10. Visualize the alignment
+```
+- `sim_aligned.flagstat`: Summary of the simulated reads alignment.
+```
+20002 + 0 in total (QC-passed reads + QC-failed reads)
+20002 + 0 primary
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+20002 + 0 mapped (100.00% : N/A)
+20002 + 0 primary mapped (100.00% : N/A)
+20002 + 0 paired in sequencing
+10001 + 0 read1
+10001 + 0 read2
+20002 + 0 properly paired (100.00% : N/A)
+20002 + 0 with itself and mate mapped
+0 + 0 singletons (0.00% : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+```
+
+### Visualize the alignment
 ![Alignment](./images/image1.png)
 
 
