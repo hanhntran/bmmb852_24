@@ -19,14 +19,12 @@ Ensure the following tools are installed:
    Populate `design.csv` with SRA accession numbers.
 
 2. Run the Makefile with GNU Parallel
- ``` cat design.csv | parallel --dry-run --lb -j 4 --colsep , --header : make run SRR={Run} SAMPLE={Sample} ```
-
-3. Merge the vcf files into one:
 ```
-# Merge VCF files into a single one.
-bcftools merge -0 vcf/*.vcf.gz -O z > merged.vcf.gz
+cat design.csv | parallel --dry-run --lb -j 4 --colsep , --header : make run SRR={Run} SAMPLE={Sample}
+```
 
 # Index the merged VCF file
+```
 bcftools index merged.vcf.gz
 ```
 4. Visualize the merged VCF file using IGV:
