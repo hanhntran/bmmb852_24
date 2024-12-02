@@ -19,6 +19,6 @@ Ensure the following tools are installed:
    Populate `design.csv` with SRA accession numbers.
 
 2. Run the Makefile with GNU Parallel
-cat design.csv | parallel --dry-run --lb -j 4 --colsep , --header : \ 
+```cat design.csv | parallel --dry-run --lb -j 4 --colsep , --header : \ 
 make run SRR={Run} SAMPLE={Sample}
-
+```
