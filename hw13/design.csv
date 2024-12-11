@@ -1,0 +1,5 @@
+Run,Sample,Condition
+SRR31589744,Sample1,low
+SRR31589743,Sample2,low
+SRR31589739,Sample3,high
+SRR31589740,Sample4,high
