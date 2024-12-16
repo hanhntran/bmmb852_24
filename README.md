@@ -12,4 +12,5 @@ This repository contains all codes and scripts for BMMB852 course - Fall 2024
 - Assignment 11 [hw_11](hw11)
 - Assignment 12 [hw_12](hw12)
 - Assignment 13 [hw_13](hw13)
+- Assignment 14 [hw_14](hw14)
 
