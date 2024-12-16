@@ -25,16 +25,11 @@ bash src/setup/init-stats.sh
  make -f rnaseq.mk all
 ```
 
-# Index the merged VCF file
-```
-bcftools index merged.vcf.gz
-```
-
-4. Visualize PCA by group:
+3. Visualize PCA by group:
 The PCA plot shows the first two principal components (PC1 and PC2) of the data, colored by group. The groups are generally clustered together, indicating that the samples are similar to each other. 
 ![IGV screenshot](./res/pca_by_group.pdf)
 
-5. Count the number of reads mapped to each gene
+4. Count the number of reads mapped to each gene
 First few lines of gene expression information from the two groups:
 ```
 name	gene	length	baseMean	baseMeanA	baseMeanB	foldChange	log2FoldChange	PValue	PAdj	FDR	falsePos	WT_1	WT_2	WT_3	mutant_1	mutant_2	mutant_3
