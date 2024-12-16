@@ -14,12 +14,13 @@ bash src/setup/init-stats.sh
 
 ## Files
 - `rnaseq.mk`: The workflow definition.
-- `design.csv`: A file containing a list of SRA accession numbers (one per line).
+- `c_elegans.csv`: A file containing a list of SRA accession numbers (one per line).
 
 ## Running the Pipeline
 1. **Prepare the SRA List**:
-   Populate `design.csv` with SRA accession numbers.
-
+```
+ make -f rnaseq.mk design
+```
 2. Run the Makefile with GNU Parallel
 ```
  make -f rnaseq.mk all
