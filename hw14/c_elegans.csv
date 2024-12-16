@@ -1,0 +1,7 @@
+run,group,type,sample
+SRR31712716,WT,WT,WT_1
+SRR31712715,WT,WT,WT_2
+SRR31712714,WT,WT,WT_3
+SRR31712713,mutant,mutant,mutant_1
+SRR31712712,mutant,mutant,mutant_2
+SRR31712711,mutant,mutant,mutant_3
