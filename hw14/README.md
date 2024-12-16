@@ -28,7 +28,7 @@ bash src/setup/init-stats.sh
 
 3. Visualize PCA by group:
 The PCA plot shows the first two principal components (PC1 and PC2) of the data, colored by group. The groups are generally clustered together, indicating that the samples are similar to each other. 
-![IG](./res/pca_by_group.pdf)
+![IG](./res/pca_by_group.jpeg)
 
 4. Count the number of reads mapped to each gene
 First few lines of gene expression information from the two groups:
